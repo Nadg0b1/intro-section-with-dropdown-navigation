@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Abc</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Heading one -->
+    <h1 class="page-title">Primul meu website</h1>
+
+    <a href="#abc">Vezi produsul</a>
+    <a href="#abc">Vezi produsul</a>
+
+    <!-- Heading two -->
+    <h2>Lorem ipsum dolor sit amet, consectetur adipisicing elit</h2>
+
+    <!-- Paragraph ( folosim pentru texte non-titluri ) -->
+    <p>
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid
+      recusandae ipsum at adipisci. Aperiam temporibus suscipit voluptate quia
+      blanditiis! Deserunt inventore illo blanditiis repudiandae, ratione quae
+      iste facere dicta eius.
+    </p>
+
+    <!-- unordered list -->
+    <ul>
+      <!-- list item -->
+      <li>Primul element</li>
+      <li>Al doilea element</li>
+      <li>Al treilea element</li>
+    </ul>
+
+    <!-- ordered list -->
+    <ol>
+      <!-- list item -->
+      <li>Primul element</li>
+      <li>Al doilea element</li>
+      <li>Al treilea element</li>
+    </ol>
+
+    <!-- self-closing tag -->
+    <a href="https://www.google.com/">
+      <img src="https://picsum.photos/200/300" id="abc" />
+      <h3>Produsul meu</h3>
+    </a>
+
+    <!-- anchor tag -->
+    <a href="https://code.visualstudio.com/" target="_blank"
+      >Descarca VS Code</a
+    >
+
+    <!-- 
+      HTML Attributes
+      -> Rol: au rolul de a configura elementele pe care sunt aplicate
+      -> Particularitati:
+        - intotdeauna se pun in opening tag
+        - atributele au forma: [nume]="[valoare]"
+        - pe unele elemente poti pune doar anumite atribute ( vezi documentatie )
+        - unele atribute pot avea doar anumite valori ( vezi documentatie )
+    -->
+
+    <form>
+      <label for="name">Full Name</label>
+      <input type="text" id="name" />
+      <!-- <br /> -->
+
+      <label for="email">Email</label>
+      <input type="email" id="email" />
+      <!-- <br /> -->
+
+      <label for="password">Password</label>
+      <input type="password" id="password" />
+      <!-- <br /> -->
+
+      <label for="date-of-birth">Date of birth</label>
+      <input type="datetime-local" id="date-of-birth" />
+      <!-- <br /> -->
+
+      <label for="working-area">Working area</label>
+      <select>
+        <option>Medical</option>
+        <option>Constructions</option>
+        <option>IT</option>
+        <option>Marketing</option>
+        <option>Other</option>
+      </select>
+      <!-- <br /> -->
+
+      <input type="checkbox" id="terms-and-conditions" />
+      <label for="terms-and-conditions">I agree with Terms & Conditions</label>
+      <!-- <br /> -->
+
+      <button>Submit</button>
+    </form>
+
+    <!-- path -->
+    <img src="./images/abc.jpg" />
+
+    <!-- 
+      Flow Layout. 
+      Avem 2 categorii de elemente: block ( heading-uri, paragrafe, li etc. ) si inline ( anchor tags, img, button, input, labels etc ).
+    -->
+  </body>
+</html>

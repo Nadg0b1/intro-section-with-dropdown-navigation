@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <!-- Upper section -->
+    <div class="upper-section-container">
+      <img src="./assets/logo.svg" class="logo" />
+      <div class="score-card">
+        <h6>SCORE</h6>
+        <p class="player-score">0</p>
+      </div>
+    </div>
+    <!-- Player obtions -->
+    <div class="player-options-container">
+      <div class="top-triangle">
+        <button class="paper-button round-buttons">
+          <img src="./assets/paper.svg" />
+        </button>
+        <button class="scissors-button round-buttons">
+          <img src="./assets/scissors.svg" />
+        </button>
+      </div>
+      <div class="bottom-triangle">
+        <button class="rock-button round-buttons">
+          <img src="./assets/rock.svg" />
+        </button>
+      </div>
+    </div>
+    <!-- Final Result -->
+    <div class="final-result-container hide">
+      <div class="options-container">
+        <div class="you-picked">
+          <img src="" class="selected-option-image" />
+          <h3>YOU PICKED</h3>
+        </div>
+        <div class="the-house-picked">
+          <img src="" class="house-option-image" />
+          <h3>THE HOUSE PIKED</h3>
+        </div>
+      </div>
+      <div class="play-again">
+        <h3 class="final-result-text"></h3>
+        <button class="reset-button">PLAY AGAIN</button>
+      </div>
+    </div>
+    <!-- rules -->
+    <div class="rules-content hide">
+      <p>Rules</p>
+      <img src="./assets/image-rules.svg" />
+    </div>
+    <!-- button RULES -->
+    <div class="rules-button-container">
+      <button class="rules-button">RULES</button>
+      <button class="rules-button-exit hide">
+        <img src="./assets/icon-close.svg" />
+      </button>
+    </div>
+    <script src="./handle-player-options.js "></script>
+    <script src="./handle-final-result.js "></script>
+    <script src="./reset-game.js"></script>
+    <script src="./rules.js"></script>
+  </body>
+</html>

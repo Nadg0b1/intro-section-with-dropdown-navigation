@@ -1,0 +1,23 @@
+.rating-buttons-container button {
+  background-color: grey;
+  color: rgb(172, 170, 170);
+  font-size: 16px;
+  font-weight: 700;
+  border: none;
+  height: 51px;
+  width: 50px;
+  border-radius: 100%;
+  transition-property: background-color, color;
+  transition-duration: 0.25s;
+  transition-timing-function: ease-out;
+}
+
+.rating-buttons-container button:hover {
+  background-color: orange;
+  color: rgb(175, 172, 172);
+}
+
+.rating-buttons-container button.selected-rating {
+  background-color: white;
+  color: rgb(71, 69, 69);
+}

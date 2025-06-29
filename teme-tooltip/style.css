@@ -1,0 +1,24 @@
+.tooltip {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.tooltip-text {
+  display: none;
+  position: absolute;
+  bottom: -25px;
+  left: 16px;
+  background-color: rgb(9, 0, 14);
+  color: rgb(255, 0, 195);
+  border-radius: 3px;
+  padding: 4px 8px;
+  font-size: 14px;
+  white-space: nowrap;
+}
+
+.tooltip:hover .tooltip-text {
+  display: inline;
+  transition-duration: 0.25s;
+  transition-timing-function: ease-out;
+}

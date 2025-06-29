@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <section>
+      <h1>Verry simple calculator</h1>
+      <form class="calculator-form">
+        <label for="first-number">First Number</label>
+        <br />
+        <input type="number" id="first-number" name="first-number" />
+        <p class="hide calculator-form-error first-number-error">
+          This field is required.
+        </p>
+        <br />
+        <label for="operator">Operator</label>
+        <br />
+        <select name="operator" id="operator">
+          <option value="">Select One</option>
+          <option value="+">+</option>
+          <option value="-">-</option>
+          <option value="*">*</option>
+          <option value="/">/</option>
+        </select>
+        <p class="operator-error hide calculator-form-error">
+          This field is required.
+        </p>
+        <br />
+
+        <label for="second-number">Second Number</label>
+        <br />
+        <input type="number" id="second-number" name="second-number" />
+        <br />
+        <p class="hide calculator-form-error second-number-error">
+          This field is required.
+        </p>
+
+        <button>Calculate</button>
+        <button type="button" class="reset-button">Reset</button>
+      </form>
+
+      <hr />
+      <p>Result</p>
+      <p class="calculator-form-result">-</p>
+    </section>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
